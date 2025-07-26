@@ -1,0 +1,37 @@
+.calculator-container {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+input {
+  padding: 8px;
+  margin: 10px 0;
+  width: 100%;
+  max-width: 300px;
+  display: inline-block;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
